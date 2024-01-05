@@ -48,7 +48,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-
 .number-pad {
     box-shadow: 0px 4px 4px 0px #00000040;
     background: #181F32;
@@ -58,7 +57,6 @@ input[type=number] {
 
 .row{
     display: flex;
-    
 }
 
 button {
