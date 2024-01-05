@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
+html,body {
+    font-family: 'roboto', sans-serif;
+    background: #3B4664;
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 450px;
+ }
+
+input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #181F32;
+    border-radius: 12px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.number-pad {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #181F32;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.row{
+    display: flex;
+    
+}
+
+button {
+    background: #EAE3DB;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3B4664;
+    margin: 8px;
+    width: 100%;
+    border-radius: 12px;
+    border: 0;
+    padding: 8px;
+}
+
+button.reset-button,
+button.delete-button {
+    background: #3B4664;
+    color: #ffffff;
+}
+
+.equal-button {
+    background-color: #D13F30;
+    color: #ffffff;
+}
